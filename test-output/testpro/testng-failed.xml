@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testpro]">
+  <test name="api(failed)">
+    <classes>
+      <class name="com.yunpian.api.pushTest">
+        <methods>
+          <include name="test_pushTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.yunpian.api.pushTest -->
+    </classes>
+  </test> <!-- api(failed) -->
+</suite> <!-- Failed suite [testpro] -->

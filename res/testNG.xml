@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testpro" parallel="false">
+    <test name="api">
+        <classes>
+            <class name="com.yunpian.api.pushTest"></class> 
+             <class name="com.yunpian.api.createShortUrl"></class>
+              <class name="com.yunpian.api.getShortUrl"></class>
+               <class name="com.yunpian.api.blacklist"></class>
+                       
+        </classes>
+    </test>
+</suite>
