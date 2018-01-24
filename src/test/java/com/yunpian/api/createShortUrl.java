@@ -32,8 +32,8 @@ public class createShortUrl extends base{
 		@Test(dataProvider = "dataInfo")
 			public void test_createShortUrl(CaseInfo c) throws IOException{
 	        String url = Urlparams.createShortUrl; 
-	        String response = HttpClientUtil.dopost(url, c.getCaseParam(),""); 
-	        System.out.println(response);       
+	        String response = HttpClientUtil.dopost(url, c.getCaseParam(),"","1"); 
+//	        System.out.println(response);       
 	        String actvalue= Jsonfetch.json_string1(response, "code");
 	        String expvalue = c.getCasePreset().get("code");
 	        assertEquals(actvalue, expvalue);		

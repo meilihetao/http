@@ -2,11 +2,15 @@
 <suite name="testpro" parallel="false">
     <test name="api">
         <classes>
-            <class name="com.yunpian.api.pushTest"></class> 
-             <class name="com.yunpian.api.createShortUrl"></class>
-              <class name="com.yunpian.api.getShortUrl"></class>
-               <class name="com.yunpian.api.blacklist"></class>
-                       
-        </classes>
+            <class name="com.yunpian.api.pushTest"></class>  
+            <class name="com.yunpian.api.createShortUrl"></class>
+            <class name="com.yunpian.api.getShortUrl"></class>
+            <class name="com.yunpian.api.blacklist"></class>
+            <class name="com.yunpian.api.inspectNTest"></class>
+            <class name="com.yunpian.api.loginMTest"></class>
+            <class name="com.yunpian.api.sendNsms"></class>
+            <class name="com.yunpian.api.whiteGNTest"></class>
+            <class name="com.yunpian.api.whiteNTest"></class> 
+       </classes>
     </test>
 </suite>

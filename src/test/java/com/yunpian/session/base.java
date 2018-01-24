@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.Test;
 
 import com.yunpian.datafactory.ParamSplit;
 import com.yunpian.http.HttpClientUtil;
@@ -61,14 +61,21 @@ public class base{
 			 in = new BufferedReader(new InputStreamReader(httpUrlCon.getInputStream()));
 			 map = httpUrlCon.getHeaderFields();
 			 
-			 List<String> Cookie = map.get("Set-Cookie");
-//			 String str1 = Cookie.get(0);
-//			 String [] str2 = str1.split("=|;");
+//			 System.out.println(map);
 			
 			 
+			 List<String> Cookie = map.get("set-cookie");
+//			 System.out.println(Cookie);
+//			 
+//			 String str1 = Cookie.get(0);
+//			 System.out.println(str1);
+//			
+//			 String [] str2 = str1.split("=|;");
+//			
 //			 JSESSIONID = str2[1];
-			 HttpClientUtil.setsession(Cookie.toString());
 //			 System.out.println(JSESSIONID);
+			 HttpClientUtil.setsession(Cookie.toString());
+			
 						 			
 		}catch (Exception e) {
 			 logger.error("发送 登陆 请求出现异常！"+e);

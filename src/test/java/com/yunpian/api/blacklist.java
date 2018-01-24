@@ -32,7 +32,7 @@ public class blacklist extends base{
 		@Test(dataProvider = "dataInfo")
 			public void test_blacklist(CaseInfo c) throws IOException{
 	        String url = Urlparams.blacklist; 
-	        String response = HttpClientUtil.dopost(url, c.getCaseParam(),""); 
+	        String response = HttpClientUtil.dopost(url, c.getCaseParam(),"","1"); 
 //	        System.out.println(response);       
 	        String actvalue= Jsonfetch.json_string1(response, "code");
 	        String expvalue = c.getCasePreset().get("code");
