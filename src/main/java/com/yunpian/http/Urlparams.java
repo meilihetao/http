@@ -1,7 +1,7 @@
 package com.yunpian.http;
 
 
-//url的一些参数定义
+//url接口的一些参数定义
 public class Urlparams {
 	public static String host = "https://www.yunpian.com";
 	
@@ -53,7 +53,35 @@ public class Urlparams {
 	
 	public static String blacklist = "https://test-web.yunpian.com/admin/sms/ajax/blacklist_records"; //查询黑名单
 	
-	public static String smsN_record = "https://test-web.yunpian.com/admin/module/ajax/sms_record"; //查询黑名单
+	public static String smsN_record = "https://test-web.yunpian.com/admin/module/ajax/sms_record"; //短信发送纪录查询
+	
+	public static String smsN_count = "https://test-web.yunpian.com/admin/module/sms_record_count"; //短信发送纪录查询分页
+
+	public static String smsN_reply = "https://test-web.yunpian.com/admin/module/ajax/sms_reply_record"; //用户回复纪录查询
+
+	public static String getNDetail = "https://test-web.yunpian.com/admin/record/send_exception/getDetail"; //用户回复纪录查询
+
+	public static String smsN_blacknumber = "https://test-web.yunpian.com/admin/module/ajax/sms_blacknumber"; //黑名单解除纪录查询
+
+	public static String sendW_sms = "https://test-web.yunpian.com/admin/module/send_sms"; //国外短信发送测试接口
+
+	public static String tplWlist = "https://test-web.yunpian.com/admin/template/tpl_list"; //国外搜索模版
+	
+	public static String tplWadd = "https://test-web.yunpian.com/admin/module/tpl_predict_add"; //国外添加模版
+
+	public static String tplWdel = "https://test-web.yunpian.com/admin/module/tpl_del"; //国外删除模版
+	
+	public static String smsW_record = "https://test-web.yunpian.com/admin/module/ajax/sms_record"; //国外短信纪录查询
+
+	public static String smsW_count = "https://test-web.yunpian.com/admin/module/sms_record_count"; //国外短信纪录分页查询
+
+	public static String Warrive = "https://test-web.yunpian.com/admin/stat_abroad/merge/total_arrive"; //国外短信到达率统计
+
+	public static String Wcountry = "https://test-web.yunpian.com/admin/stat_abroad/all_country"; //国外短信到达率按国家分布
+
+	public static String failedW_dist = "https://test-web.yunpian.com/admin/stat_abroad/merge/failed_dist"; //国外短信失败原因
+
+	public static String Wdelay = "https://test-web.yunpian.com/admin/stat_abroad/merge/delay"; //国外短信耗时统计
 
 	public static String createShortUrl = "https://test-web.yunpian.com/admin/module/batch/createShortUrl";
 	

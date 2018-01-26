@@ -1,61 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6431" started-at="2018-01-24T06:52:30Z" finished-at="2018-01-24T06:52:37Z">
+  <suite name="Default suite" duration-ms="1725" started-at="2018-01-26T03:25:11Z" finished-at="2018-01-26T03:25:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6431" started-at="2018-01-24T06:52:30Z" finished-at="2018-01-24T06:52:37Z">
-      <class name="com.yunpian.api.smsN_record">
-        <test-method status="PASS" signature="getsession()[pri:0, instance:com.yunpian.api.smsN_record@3e6fa38a]" name="getsession" is-config="true" duration-ms="5717" started-at="2018-01-24T14:52:30Z" finished-at="2018-01-24T14:52:36Z">
+    <test name="Default test" duration-ms="1725" started-at="2018-01-26T03:25:11Z" finished-at="2018-01-26T03:25:13Z">
+      <class name="com.yunpian.api.Wdelay">
+        <test-method status="PASS" signature="getsession()[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="getsession" is-config="true" duration-ms="734" started-at="2018-01-26T11:25:11Z" finished-at="2018-01-26T11:25:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getsession -->
-        <test-method status="PASS" signature="test_smsN_record(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.smsN_record@3e6fa38a]" name="test_smsN_record" duration-ms="138" started-at="2018-01-24T14:52:36Z" data-provider="dataInfo" finished-at="2018-01-24T14:52:37Z">
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="110" started-at="2018-01-26T11:25:12Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.yunpian.excle.CaseInfo@20140db9]]>
+                <![CDATA[com.yunpian.excle.CaseInfo@60099951]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_smsN_record -->
-        <test-method status="PASS" signature="test_smsN_record(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.smsN_record@3e6fa38a]" name="test_smsN_record" duration-ms="30" started-at="2018-01-24T14:52:37Z" data-provider="dataInfo" finished-at="2018-01-24T14:52:37Z">
+        </test-method> <!-- test_Wdelay -->
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="26" started-at="2018-01-26T11:25:12Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.yunpian.excle.CaseInfo@710636b0]]>
+                <![CDATA[com.yunpian.excle.CaseInfo@6cb107fd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_smsN_record -->
-        <test-method status="PASS" signature="test_smsN_record(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.smsN_record@3e6fa38a]" name="test_smsN_record" duration-ms="52" started-at="2018-01-24T14:52:37Z" data-provider="dataInfo" finished-at="2018-01-24T14:52:37Z">
+        </test-method> <!-- test_Wdelay -->
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="25" started-at="2018-01-26T11:25:12Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.yunpian.excle.CaseInfo@2ab4bc72]]>
+                <![CDATA[com.yunpian.excle.CaseInfo@3de8f619]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_smsN_record -->
-        <test-method status="PASS" signature="test_smsN_record(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.smsN_record@3e6fa38a]" name="test_smsN_record" duration-ms="30" started-at="2018-01-24T14:52:37Z" data-provider="dataInfo" finished-at="2018-01-24T14:52:37Z">
+        </test-method> <!-- test_Wdelay -->
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="25" started-at="2018-01-26T11:25:12Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.yunpian.excle.CaseInfo@eadd4fb]]>
+                <![CDATA[com.yunpian.excle.CaseInfo@4e5ed836]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_smsN_record -->
-      </class> <!-- com.yunpian.api.smsN_record -->
+        </test-method> <!-- test_Wdelay -->
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="310" started-at="2018-01-26T11:25:12Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.yunpian.excle.CaseInfo@740fb309]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Wdelay -->
+        <test-method status="PASS" signature="test_Wdelay(com.yunpian.excle.CaseInfo)[pri:0, instance:com.yunpian.api.Wdelay@3e6fa38a]" name="test_Wdelay" duration-ms="26" started-at="2018-01-26T11:25:13Z" data-provider="dataInfo" finished-at="2018-01-26T11:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.yunpian.excle.CaseInfo@43f02ef2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Wdelay -->
+      </class> <!-- com.yunpian.api.Wdelay -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

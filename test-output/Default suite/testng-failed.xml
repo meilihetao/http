@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yunpian.api.remove_blacklist">
+      <class name="com.yunpian.api.smsW_count">
         <methods>
+          <include name="test_smsW_count" invocation-numbers="0"/>
           <include name="getsession"/>
-          <include name="test_remove_blacklist" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.yunpian.api.remove_blacklist -->
+      </class> <!-- com.yunpian.api.smsW_count -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

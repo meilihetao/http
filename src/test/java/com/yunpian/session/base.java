@@ -61,7 +61,7 @@ public class base{
 			 in = new BufferedReader(new InputStreamReader(httpUrlCon.getInputStream()));
 			 map = httpUrlCon.getHeaderFields();
 			 
-//			 System.out.println(map);
+	//			 System.out.println(map);
 			
 			 
 			 List<String> Cookie = map.get("set-cookie");
